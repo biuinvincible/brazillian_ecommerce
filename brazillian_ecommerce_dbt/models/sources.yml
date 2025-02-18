@@ -1,0 +1,15 @@
+# models/sources.yml
+version: 2
+
+sources:
+  - name: bronze
+    schema: bronze
+    tables:
+      - name: bronze_olist_customers_dataset
+      - name: bronze_olist_sellers_dataset
+      - name: bronze_product_category_name_translation
+      - name: bronze_olist_products_dataset
+      - name: bronze_olist_orders_dataset
+      - name: bronze_olist_order_items_dataset
+      - name: bronze_olist_order_payments_dataset
+      - name: bronze_olist_order_reviews_dataset

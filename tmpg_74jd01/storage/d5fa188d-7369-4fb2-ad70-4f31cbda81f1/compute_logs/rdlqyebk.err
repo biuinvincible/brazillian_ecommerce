@@ -1,0 +1,66 @@
+[32m2025-02-11 16:10:04 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - LOGS_CAPTURED - Started capturing logs in process (pid: 93723).
+[32m2025-02-11 16:10:04 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_START - Started execution of step "run_dbt".
+[32m2025-02-11 16:10:07 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - LOADED_INPUT - Loaded input "customers" using input manager "psql_io_manager", from output "result" of step "brazillian_ecommerce__bronze__bronze_olist_customers_dataset"
+[32m2025-02-11 16:10:08 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - LOADED_INPUT - Loaded input "order_items" using input manager "psql_io_manager", from output "result" of step "brazillian_ecommerce__bronze__bronze_olist_order_items_dataset"
+[32m2025-02-11 16:10:08 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - LOADED_INPUT - Loaded input "order_payments" using input manager "psql_io_manager", from output "result" of step "brazillian_ecommerce__bronze__bronze_olist_order_payments_dataset"
+[32m2025-02-11 16:10:09 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - LOADED_INPUT - Loaded input "order_reviews" using input manager "psql_io_manager", from output "result" of step "brazillian_ecommerce__bronze__bronze_olist_order_reviews_dataset"
+[32m2025-02-11 16:10:09 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - LOADED_INPUT - Loaded input "orders" using input manager "psql_io_manager", from output "result" of step "brazillian_ecommerce__bronze__bronze_olist_orders_dataset"
+[32m2025-02-11 16:10:10 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - LOADED_INPUT - Loaded input "products" using input manager "psql_io_manager", from output "result" of step "brazillian_ecommerce__bronze__bronze_olist_products_dataset"
+[32m2025-02-11 16:10:10 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - LOADED_INPUT - Loaded input "sellers" using input manager "psql_io_manager", from output "result" of step "brazillian_ecommerce__bronze__bronze_olist_sellers_dataset"
+[32m2025-02-11 16:10:11 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - LOADED_INPUT - Loaded input "translation" using input manager "psql_io_manager", from output "result" of step "brazillian_ecommerce__bronze__bronze_product_category_name_translation"
+[32m2025-02-11 16:10:11 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_INPUT - Got input "customers" of type "Any". (Type check passed).
+[32m2025-02-11 16:10:11 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_INPUT - Got input "order_items" of type "Any". (Type check passed).
+[32m2025-02-11 16:10:11 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_INPUT - Got input "order_payments" of type "Any". (Type check passed).
+[32m2025-02-11 16:10:12 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_INPUT - Got input "order_reviews" of type "Any". (Type check passed).
+[32m2025-02-11 16:10:12 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_INPUT - Got input "orders" of type "Any". (Type check passed).
+[32m2025-02-11 16:10:12 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_INPUT - Got input "products" of type "Any". (Type check passed).
+[32m2025-02-11 16:10:12 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_INPUT - Got input "sellers" of type "Any". (Type check passed).
+[32m2025-02-11 16:10:13 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_INPUT - Got input "translation" of type "Any". (Type check passed).
+[32m2025-02-11 16:10:13 +0700[0m - dagster - [34mINFO[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - run_dbt - Changing working directory to /mnt/d/brazillian_ecommerce_de/brazillian_ecommerce_dbt
+[32m2025-02-11 16:10:13 +0700[0m - dagster - [34mINFO[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - run_dbt - Running 'dbt run' command...
+[32m2025-02-11 16:10:48 +0700[0m - dagster - [34mINFO[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - run_dbt - dbt run output: [0m09:10:25  Running with dbt=1.9.1
+[0m09:10:26  Registered adapter: postgres=1.9.0
+[0m09:10:38  Found 14 models, 48 data tests, 8 sources, 547 macros
+[0m09:10:38  
+[0m09:10:38  Concurrency: 1 threads (target='dev')
+[0m09:10:38  
+[0m09:10:40  1 of 14 START sql table model bronze_silver.silver_olist_customers_dataset ..... [RUN]
+[0m09:10:41  1 of 14 OK created sql table model bronze_silver.silver_olist_customers_dataset  [[32mSELECT 99441[0m in 0.33s]
+[0m09:10:41  2 of 14 START sql table model bronze_silver.silver_olist_order_items_dataset ... [RUN]
+[0m09:10:41  2 of 14 OK created sql table model bronze_silver.silver_olist_order_items_dataset  [[32mSELECT 112635[0m in 0.61s]
+[0m09:10:41  3 of 14 START sql table model bronze_silver.silver_olist_order_payments_dataset  [RUN]
+[0m09:10:42  3 of 14 OK created sql table model bronze_silver.silver_olist_order_payments_dataset  [[32mSELECT 103886[0m in 0.40s]
+[0m09:10:42  4 of 14 START sql table model bronze_silver.silver_olist_order_reviews_dataset . [RUN]
+[0m09:10:42  4 of 14 OK created sql table model bronze_silver.silver_olist_order_reviews_dataset  [[32mSELECT 37674[0m in 0.19s]
+[0m09:10:42  5 of 14 START sql table model bronze_silver.silver_olist_orders_dataset ........ [RUN]
+[0m09:10:42  5 of 14 OK created sql table model bronze_silver.silver_olist_orders_dataset ... [[32mSELECT 99441[0m in 0.37s]
+[0m09:10:42  6 of 14 START sql table model bronze_silver.silver_olist_products_dataset ...... [RUN]
+[0m09:10:43  6 of 14 OK created sql table model bronze_silver.silver_olist_products_dataset . [[32mSELECT 32941[0m in 0.47s]
+[0m09:10:43  7 of 14 START sql table model bronze_silver.silver_olist_sellers_dataset ....... [RUN]
+[0m09:10:43  7 of 14 OK created sql table model bronze_silver.silver_olist_sellers_dataset .. [[32mSELECT 3095[0m in 0.12s]
+[0m09:10:43  8 of 14 START sql table model bronze_silver.silver_product_category_name_translation  [RUN]
+[0m09:10:43  8 of 14 OK created sql table model bronze_silver.silver_product_category_name_translation  [[32mSELECT 72[0m in 0.07s]
+[0m09:10:43  9 of 14 START sql table model bronze_gold.dim_customer ......................... [RUN]
+[0m09:10:43  9 of 14 OK created sql table model bronze_gold.dim_customer .................... [[32mSELECT 99441[0m in 0.17s]
+[0m09:10:43  10 of 14 START sql table model bronze_gold.dim_payment ......................... [RUN]
+[0m09:10:43  10 of 14 OK created sql table model bronze_gold.dim_payment .................... [[32mSELECT 5[0m in 0.09s]
+[0m09:10:43  11 of 14 START sql table model bronze_gold.dim_time ............................ [RUN]
+[0m09:10:44  11 of 14 OK created sql table model bronze_gold.dim_time ....................... [[32mSELECT 363329[0m in 1.08s]
+[0m09:10:44  12 of 14 START sql table model bronze_gold.fact_orders ......................... [RUN]
+[0m09:10:46  12 of 14 OK created sql table model bronze_gold.fact_orders .................... [[32mSELECT 117764[0m in 1.82s]
+[0m09:10:46  13 of 14 START sql table model bronze_gold.dim_seller .......................... [RUN]
+[0m09:10:46  13 of 14 OK created sql table model bronze_gold.dim_seller ..................... [[32mSELECT 3095[0m in 0.07s]
+[0m09:10:46  14 of 14 START sql table model bronze_gold.dim_product ......................... [RUN]
+[0m09:10:46  14 of 14 OK created sql table model bronze_gold.dim_product .................... [[32mSELECT 32941[0m in 0.16s]
+[0m09:10:46  
+[0m09:10:46  Finished running 14 table models in 0 hours 0 minutes and 8.74 seconds (8.74s).
+[0m09:10:46  
+[0m09:10:46  [32mCompleted successfully[0m
+[0m09:10:46  
+[0m09:10:46  Done. PASS=14 WARN=0 ERROR=0 SKIP=0 TOTAL=14
+
+[32m2025-02-11 16:10:49 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_OUTPUT - Yielded output "result" of type "String". (Type check passed).
+[32m2025-02-11 16:10:49 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - run_dbt - Writing file at: /mnt/d/brazillian_ecommerce_de/tmpg_74jd01/storage/run_dbt using PickledObjectFilesystemIOManager...
+[32m2025-02-11 16:10:50 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - ASSET_MATERIALIZATION - Materialized value run_dbt.
+[32m2025-02-11 16:10:50 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2025-02-11 16:10:50 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - d5fa188d-7369-4fb2-ad70-4f31cbda81f1 - 93723 - run_dbt - STEP_SUCCESS - Finished execution of step "run_dbt" in 45.3s.

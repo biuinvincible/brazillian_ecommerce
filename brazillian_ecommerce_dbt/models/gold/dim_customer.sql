@@ -1,0 +1,10 @@
+-- models/silver/dim_customer.sql
+{{ config(materialized='table', schema='gold') }}
+
+SELECT
+    customer_id,
+    customer_unique_id,
+    customer_zip_code_prefix,
+    customer_city,
+    customer_state
+FROM {{ ref('silver_olist_customers_dataset') }}

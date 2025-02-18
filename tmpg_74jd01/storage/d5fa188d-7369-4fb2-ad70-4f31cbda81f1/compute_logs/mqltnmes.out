@@ -1,0 +1,5 @@
+Table bronze.bronze_olist_order_payments_dataset created or already exists.
+Temporary table bronze_olist_order_payments_dataset_tmp_2025_02_11 created.
+Data inserted into temporary table bronze_olist_order_payments_dataset_tmp_2025_02_11.
+Temp table bronze_olist_order_payments_dataset_tmp_2025_02_11 contains 0 records.
+Data successfully upserted into bronze.bronze_olist_order_payments_dataset.
